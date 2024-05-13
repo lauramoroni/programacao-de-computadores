@@ -1,0 +1,6 @@
+Programação de Computadores - Lab 3
+
+Exercícios de revisão
+1. 
+- Sim.
+- É possível se pressionar ENTER após a digitação de cada número.

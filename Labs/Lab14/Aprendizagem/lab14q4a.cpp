@@ -1,0 +1,3 @@
+#include <iostream>
+using namespace std;
+enum formato { JPG, PNG, BMP };struct Imagem{	string nome;	int altura, largura;	formato tipo;};void Detalhes(Imagem&);int main(){	Imagem foto = { "backg.png", 1920, 1080, PNG};	Imagem* ptr = &foto;	Detalhes(*ptr);	return 0;}void Detalhes(Imagem& foto){	cout << "A imagem '" << foto.nome << "' com tamanho " << 	foto.altura << "x" << foto.largura << " tem formato " << 	foto.tipo;}

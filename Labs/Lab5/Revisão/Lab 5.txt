@@ -1,0 +1,11 @@
+Programação de Computadores - Lab 5
+
+Exercícios de revisão
+1. Na primeira versão, seria necessário pôr um cout que exibe a mensagem "Finalizando..." após a leitura da senha, e depois repetir a função alarme(). Já na versão 2, seria necessário criar uma função para exibir a mensagem "Finalizando..." e chamá-la na função main após a leitura da senha, e em seguida chamar a função alarme() novamente.
+
+2.
+  a. A função f() é chamada primeiro, e depois a g().
+
+  b. Não, se inverter a ordem das funções, o número retornado é 12, invés de 8.
+
+  c. A ordem chamada é controlada pela função main.

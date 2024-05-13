@@ -1,0 +1,56 @@
+Programação de Computadores - Lab 1
+
+ - Ambiente de trabalho
+
+1) Que erros foram encontrados durante a compilação?
+Foram encontrados erros de sintaxe. Está faltando ";" na linha 8, as aspas não foram fechadas na linha 10 e a variável "abacaxi", na linha 12, não foi declarada.
+
+2) Foram encontrados erros durante a compilação? Que erros foram encontrados na execução do programa? Use o depurador para inspecionar o programa linha a linha e acompanhe a mudança de valor das variáveis. 
+Não, o programa é executado sem erro, entretanto há erro de semântica, uma vez que um dia tem 24 horas, e não 60. Dessa forma, o programa irá rodar, porém resultando em valores errados.
+
+
+ - Exercícios de fixação
+
+1) Descreva passo a passo como criar um projeto em C++ no Visual Studio.
+Para criar um projeto de C++ no Visual Studio, é necessário apertar o botâo "create a new project", escolher um projeto vazio e depois nomeá-lo.
+
+2) Descreva como fechar um projeto aberto sem fechar o Visual Studio.
+Para fechar um projeto sem fechar o Visual Studio, precisa clicar no projeto com o botão direito, e escolher a opção "exclude from project".
+
+3) Descreva os passos necessários para apagar por completo um projeto do disco, sem deixar rastros dele no Visual Studio.
+Para excluir um projeto do disco, é necessário, primeiramente, localizar o arquivo do projeto. No Visual Studio: tools > options > projects and solutions > locations. Em seguida, vai até o arquivo onde o projeto está localizado, por meio do explorador de arquivos, e apaga.
+
+4) O professor de programação de computadores utilizou o Visual Studio para criar um projeto chamado ProgComp e nele adicionou um arquivo fonte chamado "primeiro.cpp". Se o Visual Studio está configurado para guardar os projetos em "C:\Visual Studio\Projects", responda:
+• Onde está localizado "primeiro.cpp"? Indique o caminho completo.
+Visual Studio > Projects > ProgComp > primeiro.cpp
+
+• Descreva a sequência de passos para criar e executar outro código fonte, chamado "segundo.cpp", neste mesmo projeto.
+Botão direito em "Source Files" > add > new item. Depois, torna-se necessário excluir o código anterior (primeiro.cpp) do projeto.
+
+5) Um erro de sintaxe fere a gramática da linguagem de programação e por consequência gera um erro na hora da compilação do programa. Um erro de semântica é um erro na lógica de programação, que muitas vezes o compilador não detecta. Um programa com um erro semântico pode executar, mas não dá a resposta esperada. Que tipo de ferramentas o Visual Studio oferece para tratar erros em um programa?
+O Visual Studio além de destacar erros de sintaxe enquanto digita, possui o modo depuração para identificar erros.
+
+6) Qual opção de menu, e a tecla de atalho correspondente, para iniciar a depuração de um programa no Visual Studio?
+Debug e F5
+• É possível iniciar a depuração se um programa possuir erros de sintaxe?
+Não.
+• Como iniciar a depuração sem ser pela tecla de atalho ou menu?
+Através de um ponto de parada.
+
+7) O que é um ponto de parada (breakpoint) e como adicionar um no Visual Studio?
+O ponto de parada depura o código até o ponto escolhido. Se um erro for encontrado, o programa para de executar para ser solucionado. Para adicionar um breakpoint no Visual Studio, basta escolher a linha pela barra lateral esquerda.
+
+8) Como se pode observar o valor de uma variável durante a depuração de um programa? Liste todas as formas possíveis para fazer isso no Visual Studio.
+É possível observar op valor das variáveis pelas guias Autos e Locals, enquanto está no modo depuração.
+
+ - Exercícios de aprendizagem
+
+3) 
+Quais os valores das variáveis a e b após executar a linha abaixo? Todas as variáveis iniciam com valor zero? 
+Os valores de a e b são zero. Sim, as variáveis iniciam com valor zero.
+
+• Se o código acima for alterado de forma que a variável c não receba o valor zero, como mostrado abaixo, o programa ainda compila corretamente? Se não, veja a mensagem de erro do compilador e explique o porquê do erro.
+Não complia corretamente pois a variável 'c' não foi inicializada, uma vez que ela não foi atribuída um valor antes de ser chamada no código.
+
+4) Ao iniciar a depuração do código abaixo, você entende por que o depurador salta imediatamente para a linha “a = 1;”? Isso acontecia com o programa da questão anterior? Qual a explicação para essa diferença?
+A diferença é que nesse programa todas as variáveis foram atribuídas um valor, por isso não acontecia o mesmo no programa anterior.

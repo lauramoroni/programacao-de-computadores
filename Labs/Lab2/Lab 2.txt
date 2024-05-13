@@ -1,0 +1,6 @@
+Programação de Computadores - Lab 2
+
+Atividade de revisão
+3. Não exibe corretamente.
+4. Sim, houve diferença. O comando "chcp 1252" altera o código da página para a língua portuguesa, possibilitando a visualização da acentuação. 
+

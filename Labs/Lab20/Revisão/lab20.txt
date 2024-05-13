@@ -1,0 +1,9 @@
+lab 20
+
+2.
+- Se z for menor ou igual a 10, a será 1; se z for maior que 10 e menor ou igual a 20, a será 4; se z for maior que 20 e menor ou igual a 50, a será 8
+- Se z for maior que 50, a será lixo de memória
+
+3. 
+a) ct1 = 27; ct2 = 2
+b) Sim, o símbolo de igualdade no if está errado; pois está o símbolo de definição '=',e não '=='
