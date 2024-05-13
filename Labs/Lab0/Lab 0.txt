@@ -1,0 +1,19 @@
+Programação de Computadores - Lab 0
+
+1. Quais as linguagens de programação mais populares atualmente e em que tipos de aplicações elas são usadas?
+As linguagens de programação mais utilizadas são C, C++, C#, Java, JavaScript e Python. Tais linguagens são usadas para o desenvolvimento de aplicativos, jogos e sistemas, desenvolvimento WEB, análise de dados, inteligência artificial, etc. 
+
+2. Qual a diferença entre uma linguagem de programação compilada e uma interpretada? Existe diferença de desempenho entre elas? Dê exemplos de linguagens dos dois tipos.
+Em uma linguagem interpretada, o código fonte não é traduzido diretamente pela máquina. Dessa forma, torna-se necessário um ínterpretador para ler e executar o código. Já na linguagem compilada, a máquina traduz o código direto. Entre as linguagens interpretadas, tem-se como exemplo Python, JavaScript e Java; entre as compiladas, tem-se C++ e C.
+
+3. Quais os editores de código mais usados atualmente? Como o Visual Studio 2022 está posicionado neste ranking?
+Os editores de código mais utilizados e mais conhecidos são o Sublime Text, Visual Studio Code Notepad++, Atom e Vim. O Visual Studio 2022 é um IDE e tem como função, também, de editar código, estando em uma categoria diferente dos outros editores de código.  
+
+4. Qual a diferença entre um editor de código e um ambiente de desenvolvimento? Cite exemplos de ambos. O Visual Studio 2022 está classificado em qual categoria?
+O editor de código é projetado especificamente para a edição do código-fonte, tais como o Notepad++, Visual Studio Code e Sublime Text. Entretanto, um Ambiente de Desenvolvimento Integrado, além de funcionar como um editor de código, é utilizado em projetos mais complexos, pois possui mais funcionalidades, como controle de versão, debug de código e informações sobre funções utilizadas. O Visual Studio 2022 é classificado como uma IDE.
+
+5. Quais os principais ambientes de desenvolvimento para criação de código C++?
+Os principais Ambientes de Desenvolvimento Integrado para C++ são Visual Studio 2022, Eclipse e Netbeans.
+
+6. Quais os principais compiladores para a linguagem C++?
+Os principais compiladores de C++ são Intel C++, GNU g++ e Clang.
